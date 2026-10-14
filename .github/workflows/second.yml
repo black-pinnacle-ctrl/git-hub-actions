@@ -1,4 +1,4 @@
-name: first
+name: second
 on: 
   workflow_run:
     workflows: [first]
