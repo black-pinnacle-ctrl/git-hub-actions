@@ -1,0 +1,9 @@
+name: first
+on: push
+
+jobs: 
+  validate-file:
+    runs-on: ubuntu-latest
+    steps:
+    - name: validate-file
+      run: node --check test.js
