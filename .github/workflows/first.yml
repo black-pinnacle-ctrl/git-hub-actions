@@ -1,5 +1,8 @@
 name: first
-on: push
+on: 
+  push:
+  pull_request:
+    
 
 jobs: 
   validate-file:
